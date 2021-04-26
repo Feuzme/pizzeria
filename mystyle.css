@@ -19,7 +19,10 @@
 }
 .contenu {
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;  
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: auto;
 }
 .contenu article {
     border-radius: 10px;
@@ -40,10 +43,23 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:cover;
+    color: rgb(255, 255, 255);
 }
 
 footer {
     border: solid gray;
     background-color: darkcyan;
     color: rgb(36, 36, 36);
+}
+
+.choixPizza {
+    display: flex;
+    flex-flow: row wrap;
+}
+.orderInfo {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1%;
+    background-color:  rgba(209, 106, 32, 0.7);
+    border-radius: 3px;
 }
