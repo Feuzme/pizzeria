@@ -23,6 +23,11 @@
     flex-direction: row;  
     justify-content: space-between;
     width: auto;
+    
+}
+.contenu a {
+    color: aqua;
+    text-decoration: none;
 }
 .contenu article {
     border-radius: 10px;
@@ -75,6 +80,7 @@ footer {
 }
 
 .mapContainer {
+    margin: 1em;
     display: flex;
     justify-content: space-between;
     padding: 30%;
