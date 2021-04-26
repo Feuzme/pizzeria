@@ -88,15 +88,9 @@ footer {
 }
 
 .mapContainer iframe{
-
     left:0;
-
     top:0;
-
     height:80%;
-
     width:80%;
-
     position:absolute;
-
 }
