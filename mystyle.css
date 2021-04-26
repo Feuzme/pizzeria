@@ -16,17 +16,17 @@
     width:25%;
     margin: 0.5em;
     color: aqua;
+    text-decoration: none;
 }
 .contenu {
     display: flex;
     flex-direction: row;  
-    justify-content: center;
-    flex-wrap: nowrap;
+    justify-content: space-between;
     width: auto;
 }
 .contenu article {
     border-radius: 10px;
-    background-color: rgba(209, 106, 32, 0.7);
+    background-color: rgba(209, 106, 32, 0.8);
     margin: 1%;
     padding: 1%;
     display: flex;
@@ -34,6 +34,7 @@
     flex-wrap:wrap;
     justify-content: center;
     border: solid orangered;
+    box-shadow: 5px 5px 10px #000 ;
 }
 .contenu img {
     width: 100%;
@@ -54,12 +55,21 @@ footer {
 
 .choixPizza {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
+    height: 70em;
+    overflow: scroll;
 }
 .orderInfo {
     display: flex;
     justify-content: flex-start;
     padding: 1%;
-    background-color:  rgba(209, 106, 32, 0.7);
+    background-color:  rgba(209, 106, 32, 0.9);
+    border-radius: 3px;
+}
+.cliInfo {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    background-color:  rgba(158, 91, 44, 0.9);
     border-radius: 3px;
 }

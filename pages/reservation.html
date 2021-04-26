@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../mystyle.css">
+    <title>La Grosse Pizza - à emporter</title>
+</head>
+<body>
+    <div>
+        <header>
+            <nav class="navigation">
+                <img src="../ressources/yin&eye.png" alt="logo" id="logo">
+                <a href="../index.html">La Carte</a>
+                <a href="../pages/order.html">Commander</a>
+                <a href="../pages/map.html">Trouver un restaurant</a>
+            </nav>
+        </header>
+    </div>
+    
+    <div>
+        <form action="GET">
+            <div class="cliInfo">
+                <label for="Nom">Nom :</label>
+                <input type="text" id="Nom">
+            </div> 
+            <div class="cliInfo">
+                <label for="dateResa">Date de la réservation :</label>
+                <input type="date" id="dateResa">
+            </div>     
+            <div class="cliInfo">
+                <label for="heureResa">Heure de reservation :</label>
+                <input type="time" name="Heure" id="heureResa">
+            </div>   
+            <div class="cliInfo">
+                <label for="resto">Choisissez votre retaurant :</label>
+                <select name="resto" id="resto">
+                    <option value="resto1">Restaurant 1</option>
+                    <option value="resto2">Restaurant 2</option>
+                    <option value="resto3">Restaurant 3</option>
+                    <option value="resto4">Restaurant 4</option>
+                </select>
+            </div>
+            <div class="cliInfo">
+                <label for="confirm">En cochant cette case vous confirmez votre réservation à l'horaire indiquée</label>
+                <input type="checkbox" name="confirm" id="confirm">
+                <input type="button" value="Réserver">
+            </div>           
+        </form>
+    </div>  
+    <footer>
+        &#169;Feuzme
+    </footer>  
+</body>
+
+</html>
