@@ -1,20 +1,29 @@
 #logo {
     width: 5%;
 }
-header {
-    display: flex;
-    align-content:stretch;
-    width: 100%;
-}
-body {
-    display: flex;
-    align-content:flex-end;
-    width: 100%;
-}
-article {
-    display: flex;
-    width: 20%;
-    flex-wrap:wrap;
-    flex-direction: row;
 
+.navigation {
+    display: flex;
+    flex-direction: row;
+}
+.navigation a{ 
+    display: flex;
+    border: solid black;
+    padding: 1em;
+}
+.contenu {
+    display: flex;
+    flex-direction: row;    
+}
+.contenu article {
+    margin: 1%;
+    padding: 1%;
+    display: flex;
+    width: 30%;
+    flex-wrap:wrap;
+    align-items: stretch;
+    border: solid orangered;
+}
+.contenu img {
+    width: 100%;
 }
